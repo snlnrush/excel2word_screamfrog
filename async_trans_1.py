@@ -116,7 +116,7 @@ async def main():
 
 			txt_issue_name, txt_issue_priority, txt_detected_urls, txt_entry, txt_fix_head,	txt_h2_fix = results
 
-			await asyncio.sleep(0.5)
+			await asyncio.sleep(1)
 
 		print(txt_issue_name)
 		print(txt_h2_fix)
